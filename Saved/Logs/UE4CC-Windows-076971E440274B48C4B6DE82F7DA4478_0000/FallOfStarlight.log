@@ -1,0 +1,318 @@
+﻿Log file open, 06/04/17 21:06:43
+LogInit:Display: Running engine for game: FallOfStarlight
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1825995266) SRandInit(1825995266).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083342
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.04-19.06.44:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-19.06.44:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.04-19.06.44:545][  0]LogInit: Computer: DESKTOP-M5B22NK
+[2017.06.04-19.06.44:545][  0]LogInit: User: JamesKeo
+[2017.06.04-19.06.44:545][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.04-19.06.44:545][  0]LogInit: High frequency timer resolution =3.125013 MHz
+[2017.06.04-19.06.44:545][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.04-19.06.44:545][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.04-19.06.44:545][  0]LogMemory: Process Physical Memory: 262.75 MB used, 262.75 MB peak
+[2017.06.04-19.06.44:545][  0]LogMemory: Process Virtual Memory: 262.11 MB used, 262.11 MB peak
+[2017.06.04-19.06.44:545][  0]LogMemory: Physical Memory: 6154.51 MB used,  1973.40 MB free, 8127.91 MB total
+[2017.06.04-19.06.44:545][  0]LogMemory: Virtual Memory: 644.11 MB used,  1973.40 MB free, 134217728.00 MB total
+[2017.06.04-19.06.44:625][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.06.04-19.06.45:281][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.04-19.06.45:927][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.06.04-19.06.45:927][  0]LogD3D11RHI:       3019/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.04-19.06.45:936][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.04-19.06.45:936][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.04-19.06.45:936][  0]LogWindows: EnumDisplayDevices:
+[2017.06.04-19.06.45:936][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.06.04-19.06.45:936][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:936][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:936][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:937][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.04-19.06.45:937][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.04-19.06.46:562][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.04-19.06.46:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers: Guid format shader working directory is 31 characters bigger than the processId version (D:/FallOfStarlight/Intermediate/Shaders/WorkingDirectory/10684/).
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James Keo/AppData/Local/Temp/UnrealShaderWorkingDir/218C528949BEB43C92AE50BE4E52E2B0/'.
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.04-19.06.47:779][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.04-19.06.47:837][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.04-19.06.47:894][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.04-19.06.47:952][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.04-19.06.48:008][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.04-19.06.48:065][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.04-19.06.48:120][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.04-19.06.48:177][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.04-19.06.48:224][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.04-19.06.48:283][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.04-19.06.48:338][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.04-19.06.48:393][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.04-19.06.48:447][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.04-19.06.48:502][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.04-19.06.48:560][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.04-19.06.48:675][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.04-19.06.48:675][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.04-19.06.48:714][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.04-19.06.48:810][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.04-19.06.48:845][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.04-19.06.48:899][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.04-19.06.48:954][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.04-19.06.49:008][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.04-19.06.49:065][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.04-19.06.49:065][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.04-19.06.49:511][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/FallOfStarlight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/FallOfStarlight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.04-19.06.49:591][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.04-19.06.49:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James Keo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.04-19.06.49:613][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.04-19.06.49:613][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-19.06.49:613][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-19.06.49:869][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-19.06.49:873][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.04-19.06.50:089][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.04-19.06.50:131][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.04-19.06.50:716][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: fallofstarlight, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2458951082
+[2017.06.04-19.06.50:762][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.06.04-19.06.50:796][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011810 seconds
+[2017.06.04-19.06.50:802][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.04-19.06.50:802][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.04-19.06.50:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.04-19.06.50:868][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.04-19.06.52:470][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.04-19.06.52:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.04-19.06.52:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.04-19.06.53:346][  0]SourceControl: Info Source control is disabled
+[2017.06.04-19.06.54:679][  0]LogEngine: Initializing Engine...
+[2017.06.04-19.06.54:679][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.04-19.06.54:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.04-19.06.54:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.04-19.06.54:917][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.04-19.06.54:926][  0]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.06.54:936][  0]LogInit: FAudioDevice initialized.
+[2017.06.04-19.06.54:968][  0]LogDerivedDataCache: Saved boot cache 0.03s 60MB C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-19.06.54:978][  0]LogInit: Texture streaming: Enabled
+[2017.06.04-19.06.55:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.04-19.06.55:172][  0]LogInit: Transaction tracking system initialized
+[2017.06.04-19.06.55:526][  0]BlueprintLog: New page: Editor Load
+[2017.06.04-19.06.56:420][  0]LocalizationService: Info Localization service is disabled
+[2017.06.04-19.06.57:091][  0]LogConsoleResponse:Display: 
+[2017.06.04-19.06.57:237][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.04-19.06.57:237][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.04-19.06.58:227][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/' took 0.01s
+[2017.06.04-19.06.58:272][  0]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/TestMapJames.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.06.58:309][  0]LightingResults: New page: Lighting Build
+[2017.06.04-19.06.58:350][  0]MapCheck: New page: Map Check
+[2017.06.04-19.06.58:350][  0]LightingResults: New page: Lighting Build
+[2017.06.04-19.06.58:595][  0]LogAIModule: Creating AISystem for world TestMapJames
+[2017.06.04-19.06.58:617][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.06.58:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.06.58:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.294ms to complete.
+[2017.06.04-19.06.58:659][  0]LogFileHelpers: Loading map 'TestMapJames' took 0.387
+[2017.06.04-19.06.58:885][  0]LogCollectionManager: Loaded 0 collections in 0.001708 seconds
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Saved/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/Developers/JamesKeo/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.04-19.06.58:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2245 classes and 453 folders.
+[2017.06.04-19.06.59:056][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-19.06.59:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-19.06.59:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.04-19.06.59:639][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.04-19.06.59:654][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.04-19.06.59:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.04-19.06.59:720][  0]LogLoad: (Engine Initialization) Total time: 20.16 seconds
+[2017.06.04-19.06.59:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.04-19.06.59:720][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.04-19.07.00:060][  0]LogOcInput: OculusInput pre-init called
+[2017.06.04-19.07.00:090][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.04-19.07.00:091][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-19.07.00:098][  0]LogSlate: Took 0.001088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.04-19.07.00:119][  0]LogSlate: Took 0.006286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.04-19.07.00:335][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.04-19.07.00:407][  0]LogSlate: Took 0.005846 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-19.07.00:501][  1]LogAssetRegistry: Asset discovery search completed in 9.7606 seconds
+[2017.06.04-19.07.00:501][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.04-19.07.00:501][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.04-19.18.04:521][240]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-19.18.04:544][240]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.18.04:571][240]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.18.04:571][240]LightingResults: New page: Lighting Build
+[2017.06.04-19.18.04:572][240]LoadErrors: New page: Loading map: Tutoriel.umap
+[2017.06.04-19.18.04:574][240]MapCheck: New page: Map Check
+[2017.06.04-19.18.04:574][240]LightingResults: New page: Lighting Build
+[2017.06.04-19.18.04:640][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.18.04:659][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.18.04:701][240]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.416ms to complete.
+[2017.06.04-19.18.04:701][240]LogFileHelpers: Loading map 'Tutoriel' took 0.134
+[2017.06.04-19.19.54:885][756]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Keo\Pictures\Projet Starlight\Starlight-Placeholder.png)
+[2017.06.04-19.19.54:906][756]LogTexture:Display: Building textures: Starlight-Placeholder (BGRA8, 640X406) - 72 MB total VRAM
+[2017.06.04-19.19.58:888][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Keo\Pictures\Projet Starlight\Background-Placeholder.jpg)
+[2017.06.04-19.19.59:069][768]LogTexture:Display: Building textures: Background-Placeholder (AutoDXT, 2448X2448) - 73 MB total VRAM
+[2017.06.04-19.20.40:011][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset" SILENT=true
+[2017.06.04-19.20.40:992][392]LogSavePackage: Save=980.00ms
+[2017.06.04-19.20.40:992][392]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder9E0755234F608AF6EB05BD97804C0BDD.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset'
+[2017.06.04-19.20.40:998][392]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset
+[2017.06.04-19.20.43:667][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Starlight-Placeholder" FILE="D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset" SILENT=true
+[2017.06.04-19.20.43:700][698]LogSavePackage: Save=31.49ms
+[2017.06.04-19.20.43:700][698]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder377D9A9B481912B95F9A2290E8B4DEA0.tmp' to 'D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset'
+[2017.06.04-19.20.43:701][698]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset
+[2017.06.04-19.20.58:930][478]LogSlate: Took 0.003880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.04-19.20.59:097][478]LogRenderer: Reallocating scene render targets to support 1468x920 NumSamples 1 (Frame:13).
+[2017.06.04-19.22.10:414][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.22.10:434][749]LogSavePackage: Save=19.14ms
+[2017.06.04-19.22.10:434][749]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder_Sprite68CADE044B8715D3689C77A24BA196CF.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset'
+[2017.06.04-19.22.10:435][749]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset
+[2017.06.04-19.22.27:549][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.22.27:596][424]LogSavePackage: Save=41.52ms
+[2017.06.04-19.22.27:596][424]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder_Sprite30A9ED7741C5EA4944CA0B98245ECFEC.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset'
+[2017.06.04-19.22.27:597][424]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset
+[2017.06.04-19.23.20:556][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.23.20:595][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.23.20:598][589]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:23:20 PM)
+[2017.06.04-19.23.20:599][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.23.20:601][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002020s)
+[2017.06.04-19.23.20:601][589]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.23.20:602][589]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2017.06.04-19.23.20:602][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.003797s)
+[2017.06.04-19.23.20:644][589]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.23.20:651][589]LogInit: FAudioDevice initialized.
+[2017.06.04-19.23.20:707][589]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.23.20:716][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.23.20
+[2017.06.04-19.23.20:719][589]LogWorld: Bringing up level for play took: 0.003574
+[2017.06.04-19.23.20:824][589]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.04-19.23.20:828][589]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.764
+[2017.06.04-19.23.25:483][112]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.23.30:121][663]LogSlate: Took 0.006280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.04-19.24.26:183][ 21]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.04-19.24.26:819][ 21]LogSlate: Took 0.004373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-19.24.44:740][855]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.24.58:711][521]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.24.58:731][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.24.58:731][521]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:24:58 PM)
+[2017.06.04-19.24.58:731][521]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.24.58:732][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000881s)
+[2017.06.04-19.24.58:732][521]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.24.58:733][521]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.06.04-19.24.58:733][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001705s)
+[2017.06.04-19.24.58:787][521]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.24.58:793][521]LogInit: FAudioDevice initialized.
+[2017.06.04-19.24.58:825][521]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.24.58:827][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.24.58
+[2017.06.04-19.24.58:828][521]LogWorld: Bringing up level for play took: 0.001137
+[2017.06.04-19.24.58:829][521]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.764
+[2017.06.04-19.25.16:898][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.25.16:911][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.25.16:911][656]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:25:16 PM)
+[2017.06.04-19.25.16:911][656]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.25.16:912][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000755s)
+[2017.06.04-19.25.16:912][656]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.25.16:912][656]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.06.04-19.25.16:913][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001688s)
+[2017.06.04-19.25.16:961][656]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.25.16:967][656]LogInit: FAudioDevice initialized.
+[2017.06.04-19.25.16:998][656]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.25.17:000][656]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.25.17
+[2017.06.04-19.25.17:000][656]LogWorld: Bringing up level for play took: 0.001024
+[2017.06.04-19.25.17:001][656]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.591
+[2017.06.04-19.25.22:889][336]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background-Placeholder_Sprite)
+[2017.06.04-19.27.18:315][ 90]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.27.21:204][380]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.27.21:216][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.27.21:216][380]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:27:21 PM)
+[2017.06.04-19.27.21:217][380]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.27.21:217][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000848s)
+[2017.06.04-19.27.21:218][380]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.27.21:218][380]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.06.04-19.27.21:218][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001567s)
+[2017.06.04-19.27.21:238][380]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.27.21:244][380]LogInit: FAudioDevice initialized.
+[2017.06.04-19.27.21:274][380]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.27.21:518][380]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.241 s
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: 
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: Ensure condition failed: Cast<APawn>(NewUpdatedComponent->GetOwner()) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\PawnMovementComponent.cpp] [Line: 16]
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: FloatingPawnMovement must update a component owned by a Pawn
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: Stack: 
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001BAE95E6
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B899B82
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B8AB666
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000094F07C3
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000094DC556
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000009460884
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000947ECAE
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000009086331
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000098AEA40
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000A1AC9F7
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000A19256F
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000976BF77
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014C88BE7
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014CB53ED
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014CD1874
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000147B626B
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014FC2196
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C0DEE3
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089BFEB40
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089BFEBBA
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C10A29
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C122B6
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: KERNEL32.DLL!0x000000005C682774
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: ntdll.dll!0x000000005DAC0D61
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: 
+[2017.06.04-19.27.21:520][380]LogStats:                SubmitErrorReport -  0.000 s

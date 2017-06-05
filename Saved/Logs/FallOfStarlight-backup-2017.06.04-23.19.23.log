@@ -1,0 +1,1063 @@
+﻿Log file open, 06/04/17 21:06:43
+LogInit:Display: Running engine for game: FallOfStarlight
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1825995266) SRandInit(1825995266).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083342
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.04-19.06.44:529][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-19.06.44:529][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.04-19.06.44:545][  0]LogInit: Computer: DESKTOP-M5B22NK
+[2017.06.04-19.06.44:545][  0]LogInit: User: JamesKeo
+[2017.06.04-19.06.44:545][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.04-19.06.44:545][  0]LogInit: High frequency timer resolution =3.125013 MHz
+[2017.06.04-19.06.44:545][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.04-19.06.44:545][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.04-19.06.44:545][  0]LogMemory: Process Physical Memory: 262.75 MB used, 262.75 MB peak
+[2017.06.04-19.06.44:545][  0]LogMemory: Process Virtual Memory: 262.11 MB used, 262.11 MB peak
+[2017.06.04-19.06.44:545][  0]LogMemory: Physical Memory: 6154.51 MB used,  1973.40 MB free, 8127.91 MB total
+[2017.06.04-19.06.44:545][  0]LogMemory: Virtual Memory: 644.11 MB used,  1973.40 MB free, 134217728.00 MB total
+[2017.06.04-19.06.44:625][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2017.06.04-19.06.45:281][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.04-19.06.45:927][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2017.06.04-19.06.45:927][  0]LogD3D11RHI:       3019/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI:       0/0/4063 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.04-19.06.45:928][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.04-19.06.45:936][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.04-19.06.45:936][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.04-19.06.45:936][  0]LogWindows: EnumDisplayDevices:
+[2017.06.04-19.06.45:936][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2017.06.04-19.06.45:936][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:936][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:936][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2017.06.04-19.06.45:937][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.04-19.06.45:937][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.04-19.06.45:937][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.04-19.06.46:562][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.04-19.06.46:595][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers: Guid format shader working directory is 31 characters bigger than the processId version (D:/FallOfStarlight/Intermediate/Shaders/WorkingDirectory/10684/).
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/James Keo/AppData/Local/Temp/UnrealShaderWorkingDir/218C528949BEB43C92AE50BE4E52E2B0/'.
+[2017.06.04-19.06.46:644][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.04-19.06.47:779][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.04-19.06.47:837][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.04-19.06.47:894][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.04-19.06.47:952][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.04-19.06.48:008][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.04-19.06.48:065][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.04-19.06.48:120][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.04-19.06.48:177][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.04-19.06.48:224][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.04-19.06.48:283][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.04-19.06.48:338][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.04-19.06.48:393][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.04-19.06.48:447][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.04-19.06.48:502][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.04-19.06.48:560][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.04-19.06.48:675][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.04-19.06.48:675][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.04-19.06.48:714][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.04-19.06.48:810][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.04-19.06.48:845][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.04-19.06.48:899][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.04-19.06.48:954][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.04-19.06.49:008][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.04-19.06.49:065][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.04-19.06.49:065][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.04-19.06.49:511][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Loaded boot cache 0.06s 62MB C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/FallOfStarlight/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/FallOfStarlight/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.04-19.06.49:572][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.04-19.06.49:591][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.04-19.06.49:603][  0]LogDerivedDataCache: Using Local data cache path C:/Users/James Keo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.04-19.06.49:613][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.04-19.06.49:613][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-19.06.49:613][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.04-19.06.49:869][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.04-19.06.49:873][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.04-19.06.50:089][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.04-19.06.50:131][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.04-19.06.50:179][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.04-19.06.50:716][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: fallofstarlight, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2458951082
+[2017.06.04-19.06.50:762][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2017.06.04-19.06.50:796][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.011810 seconds
+[2017.06.04-19.06.50:802][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.04-19.06.50:802][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.06.04-19.06.50:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.04-19.06.50:868][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.04-19.06.52:470][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.04-19.06.52:510][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.04-19.06.52:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.04-19.06.53:346][  0]SourceControl: Info Source control is disabled
+[2017.06.04-19.06.54:679][  0]LogEngine: Initializing Engine...
+[2017.06.04-19.06.54:679][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.04-19.06.54:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.04-19.06.54:792][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.04-19.06.54:917][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.04-19.06.54:926][  0]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.06.54:936][  0]LogInit: FAudioDevice initialized.
+[2017.06.04-19.06.54:968][  0]LogDerivedDataCache: Saved boot cache 0.03s 60MB C:/Users/James Keo/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.04-19.06.54:978][  0]LogInit: Texture streaming: Enabled
+[2017.06.04-19.06.55:078][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.04-19.06.55:172][  0]LogInit: Transaction tracking system initialized
+[2017.06.04-19.06.55:526][  0]BlueprintLog: New page: Editor Load
+[2017.06.04-19.06.56:420][  0]LocalizationService: Info Localization service is disabled
+[2017.06.04-19.06.57:091][  0]LogConsoleResponse:Display: 
+[2017.06.04-19.06.57:237][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.04-19.06.57:237][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.04-19.06.58:227][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/' took 0.01s
+[2017.06.04-19.06.58:272][  0]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/TestMapJames.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.06.58:309][  0]LightingResults: New page: Lighting Build
+[2017.06.04-19.06.58:350][  0]MapCheck: New page: Map Check
+[2017.06.04-19.06.58:350][  0]LightingResults: New page: Lighting Build
+[2017.06.04-19.06.58:595][  0]LogAIModule: Creating AISystem for world TestMapJames
+[2017.06.04-19.06.58:617][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.06.58:618][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.06.58:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.294ms to complete.
+[2017.06.04-19.06.58:659][  0]LogFileHelpers: Loading map 'TestMapJames' took 0.387
+[2017.06.04-19.06.58:885][  0]LogCollectionManager: Loaded 0 collections in 0.001708 seconds
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Saved/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/Developers/JamesKeo/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogFileCache: Scanning file cache for directory 'D:/FallOfStarlight/Content/Collections/' took 0.01s
+[2017.06.04-19.06.58:975][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.04-19.06.58:986][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2245 classes and 453 folders.
+[2017.06.04-19.06.59:056][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-19.06.59:399][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.04-19.06.59:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.04-19.06.59:639][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.04-19.06.59:654][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.04-19.06.59:720][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.04-19.06.59:720][  0]LogLoad: (Engine Initialization) Total time: 20.16 seconds
+[2017.06.04-19.06.59:720][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.04-19.06.59:720][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.04-19.07.00:060][  0]LogOcInput: OculusInput pre-init called
+[2017.06.04-19.07.00:090][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.04-19.07.00:091][  0]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-19.07.00:098][  0]LogSlate: Took 0.001088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.04-19.07.00:119][  0]LogSlate: Took 0.006286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.04-19.07.00:335][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.04-19.07.00:407][  0]LogSlate: Took 0.005846 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-19.07.00:501][  1]LogAssetRegistry: Asset discovery search completed in 9.7606 seconds
+[2017.06.04-19.07.00:501][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.04-19.07.00:501][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.04-19.18.04:521][240]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-19.18.04:544][240]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.18.04:571][240]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.18.04:571][240]LightingResults: New page: Lighting Build
+[2017.06.04-19.18.04:572][240]LoadErrors: New page: Loading map: Tutoriel.umap
+[2017.06.04-19.18.04:574][240]MapCheck: New page: Map Check
+[2017.06.04-19.18.04:574][240]LightingResults: New page: Lighting Build
+[2017.06.04-19.18.04:640][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.18.04:659][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.18.04:701][240]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.416ms to complete.
+[2017.06.04-19.18.04:701][240]LogFileHelpers: Loading map 'Tutoriel' took 0.134
+[2017.06.04-19.19.54:885][756]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Keo\Pictures\Projet Starlight\Starlight-Placeholder.png)
+[2017.06.04-19.19.54:906][756]LogTexture:Display: Building textures: Starlight-Placeholder (BGRA8, 640X406) - 72 MB total VRAM
+[2017.06.04-19.19.58:888][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\James Keo\Pictures\Projet Starlight\Background-Placeholder.jpg)
+[2017.06.04-19.19.59:069][768]LogTexture:Display: Building textures: Background-Placeholder (AutoDXT, 2448X2448) - 73 MB total VRAM
+[2017.06.04-19.20.40:011][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset" SILENT=true
+[2017.06.04-19.20.40:992][392]LogSavePackage: Save=980.00ms
+[2017.06.04-19.20.40:992][392]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder9E0755234F608AF6EB05BD97804C0BDD.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset'
+[2017.06.04-19.20.40:998][392]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder.uasset
+[2017.06.04-19.20.43:667][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Starlight-Placeholder" FILE="D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset" SILENT=true
+[2017.06.04-19.20.43:700][698]LogSavePackage: Save=31.49ms
+[2017.06.04-19.20.43:700][698]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder377D9A9B481912B95F9A2290E8B4DEA0.tmp' to 'D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset'
+[2017.06.04-19.20.43:701][698]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder.uasset
+[2017.06.04-19.20.58:930][478]LogSlate: Took 0.003880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.04-19.20.59:097][478]LogRenderer: Reallocating scene render targets to support 1468x920 NumSamples 1 (Frame:13).
+[2017.06.04-19.22.10:414][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.22.10:434][749]LogSavePackage: Save=19.14ms
+[2017.06.04-19.22.10:434][749]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder_Sprite68CADE044B8715D3689C77A24BA196CF.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset'
+[2017.06.04-19.22.10:435][749]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset
+[2017.06.04-19.22.27:549][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Background-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.22.27:596][424]LogSavePackage: Save=41.52ms
+[2017.06.04-19.22.27:596][424]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder_Sprite30A9ED7741C5EA4944CA0B98245ECFEC.tmp' to 'D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset'
+[2017.06.04-19.22.27:597][424]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Background-Placeholder_Sprite.uasset
+[2017.06.04-19.23.20:556][589]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.23.20:595][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.23.20:598][589]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:23:20 PM)
+[2017.06.04-19.23.20:599][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.23.20:601][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002020s)
+[2017.06.04-19.23.20:601][589]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.23.20:602][589]LogPlayLevel: PIE: World Init took: (0.000735s)
+[2017.06.04-19.23.20:602][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.003797s)
+[2017.06.04-19.23.20:644][589]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.23.20:651][589]LogInit: FAudioDevice initialized.
+[2017.06.04-19.23.20:707][589]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.23.20:716][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.23.20
+[2017.06.04-19.23.20:719][589]LogWorld: Bringing up level for play took: 0.003574
+[2017.06.04-19.23.20:824][589]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.04-19.23.20:828][589]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.764
+[2017.06.04-19.23.25:483][112]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.23.30:121][663]LogSlate: Took 0.006280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.04-19.24.26:183][ 21]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.04-19.24.26:819][ 21]LogSlate: Took 0.004373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.04-19.24.44:740][855]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.24.58:711][521]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.24.58:731][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.24.58:731][521]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:24:58 PM)
+[2017.06.04-19.24.58:731][521]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.24.58:732][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000881s)
+[2017.06.04-19.24.58:732][521]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.24.58:733][521]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.06.04-19.24.58:733][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001705s)
+[2017.06.04-19.24.58:787][521]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.24.58:793][521]LogInit: FAudioDevice initialized.
+[2017.06.04-19.24.58:825][521]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.24.58:827][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.24.58
+[2017.06.04-19.24.58:828][521]LogWorld: Bringing up level for play took: 0.001137
+[2017.06.04-19.24.58:829][521]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.764
+[2017.06.04-19.25.16:898][656]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.25.16:911][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.25.16:911][656]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:25:16 PM)
+[2017.06.04-19.25.16:911][656]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.25.16:912][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000755s)
+[2017.06.04-19.25.16:912][656]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.25.16:912][656]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2017.06.04-19.25.16:913][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001688s)
+[2017.06.04-19.25.16:961][656]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.25.16:967][656]LogInit: FAudioDevice initialized.
+[2017.06.04-19.25.16:998][656]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.25.17:000][656]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.25.17
+[2017.06.04-19.25.17:000][656]LogWorld: Bringing up level for play took: 0.001024
+[2017.06.04-19.25.17:001][656]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.591
+[2017.06.04-19.25.22:889][336]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background-Placeholder_Sprite)
+[2017.06.04-19.27.18:315][ 90]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.27.21:204][380]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.27.21:216][380]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.27.21:216][380]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:27:21 PM)
+[2017.06.04-19.27.21:217][380]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.27.21:217][380]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000848s)
+[2017.06.04-19.27.21:218][380]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.27.21:218][380]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.06.04-19.27.21:218][380]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001567s)
+[2017.06.04-19.27.21:238][380]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.27.21:244][380]LogInit: FAudioDevice initialized.
+[2017.06.04-19.27.21:274][380]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.27.21:518][380]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.241 s
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: === Handled ensure: ===
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: 
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: Ensure condition failed: Cast<APawn>(NewUpdatedComponent->GetOwner()) [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\PawnMovementComponent.cpp] [Line: 16]
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: FloatingPawnMovement must update a component owned by a Pawn
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: Stack: 
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001BAE95E6
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B899B82
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000001B8AB666
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000094F07C3
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000094DC556
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000009460884
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000947ECAE
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000009086331
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000098AEA40
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000A1AC9F7
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000A19256F
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000000976BF77
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014C88BE7
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014CB53ED
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014CD1874
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000147B626B
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000014FC2196
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C0DEE3
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089BFEB40
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089BFEBBA
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C10A29
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: UE4Editor.exe!0x0000000089C122B6
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: KERNEL32.DLL!0x000000005C682774
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: ntdll.dll!0x000000005DAC0D61
+[2017.06.04-19.27.21:518][380]LogOutputDevice:Error: 
+[2017.06.04-19.27.21:520][380]LogStats:                SubmitErrorReport -  0.000 s
+[2017.06.04-19.27.22:318][380]LogStats:                    SendNewReport -  0.798 s
+[2017.06.04-19.27.22:318][380]LogStats:             FDebug::EnsureFailed -  1.043 s
+[2017.06.04-19.27.22:318][380]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.27.22
+[2017.06.04-19.27.22:319][380]LogWorld: Bringing up level for play took: 1.044372
+[2017.06.04-19.27.22:320][380]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.728
+[2017.06.04-19.28.50:975][302]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.28.55:172][710]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.28.55:186][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.28.55:186][710]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:28:55 PM)
+[2017.06.04-19.28.55:186][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.28.55:187][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000922s)
+[2017.06.04-19.28.55:187][710]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.28.55:188][710]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.06.04-19.28.55:188][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001747s)
+[2017.06.04-19.28.55:207][710]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.28.55:214][710]LogInit: FAudioDevice initialized.
+[2017.06.04-19.28.55:245][710]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.28.55:246][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.28.55
+[2017.06.04-19.28.55:246][710]LogWorld: Bringing up level for play took: 0.000906
+[2017.06.04-19.28.55:247][710]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.345
+[2017.06.04-19.29.06:655][810]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.29.06:668][810]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.04-19.29.06:668][810]LogPlayLevel: [PlayLevel] Compiling ParentTile before play...
+[2017.06.04-19.29.06:786][810]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2017.06.04-19.29.06:786][810]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:29:06 PM)
+[2017.06.04-19.29.06:786][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.29.06:787][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000857s)
+[2017.06.04-19.29.06:787][810]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.29.06:787][810]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.06.04-19.29.06:788][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001582s)
+[2017.06.04-19.29.06:807][810]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.29.06:813][810]LogInit: FAudioDevice initialized.
+[2017.06.04-19.29.06:847][810]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.29.06:849][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.29.06
+[2017.06.04-19.29.06:849][810]LogWorld: Bringing up level for play took: 0.000914
+[2017.06.04-19.29.06:852][810]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.741
+[2017.06.04-19.31.44:850][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.04-19.31.45:245][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ParentTile_C_52' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:245][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:245][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_ParentTile' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Game/FoSBlueprints/ParentTile'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FloatingPawnMovement' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ParentTile_C_37' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FloatingPawnMovement_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ParentTile_C_1' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ParentTile_C_51' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.04-19.31.45:246][900]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ParentTile_C_0' or package '/Engine/Transient'.
+[2017.06.04-19.32.21:029][657]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.04-19.32.29:600][483]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.33.34:739][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/ParentTile" FILE="D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset" SILENT=true
+[2017.06.04-19.33.34:755][624]LogSavePackage: Save=15.44ms
+[2017.06.04-19.33.34:755][624]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/ParentTile0FB1C0324B9547867E57058C1302FC08.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset'
+[2017.06.04-19.33.34:756][624]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset
+[2017.06.04-19.33.35:879][754]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.33.44:203][717]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.33.44:222][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.33.44:222][717]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:33:44 PM)
+[2017.06.04-19.33.44:222][717]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.33.44:223][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000862s)
+[2017.06.04-19.33.44:224][717]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.33.44:224][717]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2017.06.04-19.33.44:224][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.002028s)
+[2017.06.04-19.33.44:243][717]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.33.44:251][717]LogInit: FAudioDevice initialized.
+[2017.06.04-19.33.44:280][717]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.33.44:282][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.33.44
+[2017.06.04-19.33.44:282][717]LogWorld: Bringing up level for play took: 0.000964
+[2017.06.04-19.33.44:283][717]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.691
+[2017.06.04-19.33.55:897][775]BlueprintLog: New page: Compile ParentTile
+[2017.06.04-19.33.58:628][ 60]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.33.58:639][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.33.58:639][ 60]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:33:58 PM)
+[2017.06.04-19.33.58:639][ 60]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.33.58:640][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000812s)
+[2017.06.04-19.33.58:641][ 60]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.33.58:641][ 60]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.06.04-19.33.58:641][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001627s)
+[2017.06.04-19.33.58:660][ 60]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.33.58:665][ 60]LogInit: FAudioDevice initialized.
+[2017.06.04-19.33.58:696][ 60]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.33.58:698][ 60]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.33.58
+[2017.06.04-19.33.58:698][ 60]LogWorld: Bringing up level for play took: 0.001111
+[2017.06.04-19.33.58:699][ 60]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.893
+[2017.06.04-19.34.05:418][854]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.34.05:429][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.34.05:429][854]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:34:05 PM)
+[2017.06.04-19.34.05:429][854]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.34.05:430][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001018s)
+[2017.06.04-19.34.05:431][854]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.34.05:431][854]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2017.06.04-19.34.05:431][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001842s)
+[2017.06.04-19.34.05:453][854]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.34.05:459][854]LogInit: FAudioDevice initialized.
+[2017.06.04-19.34.05:496][854]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.34.05:497][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.34.05
+[2017.06.04-19.34.05:498][854]LogWorld: Bringing up level for play took: 0.000977
+[2017.06.04-19.34.05:499][854]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.094
+[2017.06.04-19.34.28:280][569]LogEditorActor: Deleted Actor: ParentTile_C
+[2017.06.04-19.34.28:296][569]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.04-19.35.01:779][227]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.04-19.35.22:320][590]LogSlate: Took 0.005012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.04-19.35.38:302][420]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.35.38:309][420]LogBlueprint:Error: [Compiler FoSGameMode] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.04-19.35.38:309][420]LogBlueprint:Error: [Compiler FoSGameMode] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.04-19.35.38:534][420]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.04-19.35.38:534][420]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.04-19.35.38:535][420]LogBlueprint:Warning: [Compiler FoSGameMode] Warning [1738.97] Compile of FoSGameMode failed. 2 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/GameMode/FoSGameMode.FoSGameMode)
+[2017.06.04-19.35.47:572][415]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.36.09:364][927]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.36.09:382][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.36.09:382][927]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:36:09 PM)
+[2017.06.04-19.36.09:382][927]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.36.09:383][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000852s)
+[2017.06.04-19.36.09:383][927]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.36.09:384][927]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.06.04-19.36.09:384][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001838s)
+[2017.06.04-19.36.09:403][927]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.36.09:410][927]LogInit: FAudioDevice initialized.
+[2017.06.04-19.36.09:442][927]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.36.09:443][927]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.36.09
+[2017.06.04-19.36.09:444][927]LogWorld: Bringing up level for play took: 0.000784
+[2017.06.04-19.36.09:445][927]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.148
+[2017.06.04-19.36.18:105][805]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.04-19.36.18:262][812]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.FallOfStarlight
+
+[2017.06.04-19.36.18:262][812]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.04-19.36.18:262][812]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.06.04-19.36.18:262][812]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.06.04-19.36.18:270][813]LogTemp:Display: BranchPath = DESKTOP-M5B22NK/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-M5B22NK/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Impossible de trouver une partie du chemin d'acc?s 'C:\Users\James Keo\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display:    ? System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display:    ? System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display:    ? System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display:    ? iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.06.04-19.36.18:332][820]LogTemp:Display:    ? iPhonePackager.Program.Main(String[] args)
+
+[2017.06.04-19.36.21:861][225]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.04-19.36.28:629][993]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.36.28:645][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.36.28:646][993]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:36:28 PM)
+[2017.06.04-19.36.28:646][993]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.36.28:647][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000756s)
+[2017.06.04-19.36.28:647][993]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.36.28:647][993]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.06.04-19.36.28:647][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001557s)
+[2017.06.04-19.36.28:669][993]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.36.28:675][993]LogInit: FAudioDevice initialized.
+[2017.06.04-19.36.28:706][993]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.36.28:708][993]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.36.28
+[2017.06.04-19.36.28:708][993]LogWorld: Bringing up level for play took: 0.000873
+[2017.06.04-19.36.28:712][993]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.88
+[2017.06.04-19.36.39:835][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/FoSGameMode" FILE="D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset" SILENT=true
+[2017.06.04-19.36.39:850][309]LogSavePackage: Save=14.45ms
+[2017.06.04-19.36.39:851][309]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/FoSGameModeCFE4BE6D4648F71B2853BEAFDA749739.tmp' to 'D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset'
+[2017.06.04-19.36.39:852][309]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset
+[2017.06.04-19.36.48:021][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/ParentTile" FILE="D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset" SILENT=true
+[2017.06.04-19.36.48:040][ 71]LogSavePackage: Save=12.66ms
+[2017.06.04-19.36.48:040][ 71]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/ParentTileD0368015444BAC974319958B6ABAB6A1.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset'
+[2017.06.04-19.36.48:041][ 71]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/ParentTile.uasset
+[2017.06.04-19.36.48:090][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutoriel" FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.04-19.36.48:123][ 71]LogSavePackage: Save=12.48ms
+[2017.06.04-19.36.48:123][ 71]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/TutorielCB12E07940CC234B2C7B75A52FCD34BB.tmp' to 'D:/FallOfStarlight/Content/Maps/Tutoriel.umap'
+[2017.06.04-19.36.48:124][ 71]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Maps/Tutoriel.umap
+[2017.06.04-19.36.48:142][ 71]LogFileHelpers: Saving map 'Tutoriel' took 0.101
+[2017.06.04-19.36.48:142][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raw/Background-Placeholder" FILE="D:/FallOfStarlight/Content/Raw/Background-Placeholder.uasset" SILENT=true
+[2017.06.04-19.36.48:147][ 71]LogSavePackage: Save=3.64ms
+[2017.06.04-19.36.48:147][ 71]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Background-Placeholder8476828748D758A94E51CD9F8B2186C0.tmp' to 'D:/FallOfStarlight/Content/Raw/Background-Placeholder.uasset'
+[2017.06.04-19.36.48:148][ 71]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Raw/Background-Placeholder.uasset
+[2017.06.04-19.36.48:148][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Raw/Starlight-Placeholder" FILE="D:/FallOfStarlight/Content/Raw/Starlight-Placeholder.uasset" SILENT=true
+[2017.06.04-19.36.48:153][ 71]LogSavePackage: Save=3.62ms
+[2017.06.04-19.36.48:153][ 71]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder1B5919204EEC03E9E9F9EA8A68E983EF.tmp' to 'D:/FallOfStarlight/Content/Raw/Starlight-Placeholder.uasset'
+[2017.06.04-19.36.48:154][ 71]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Raw/Starlight-Placeholder.uasset
+[2017.06.04-19.36.48:163][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Starlight-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.36.48:176][ 71]LogSavePackage: Save=10.86ms
+[2017.06.04-19.36.48:176][ 71]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder_SpriteB901ECC24FA926F3CA300981FE1AD134.tmp' to 'D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset'
+[2017.06.04-19.36.48:177][ 71]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset
+[2017.06.04-19.36.48:178][ 71]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.36.48:178][ 71]LightingResults: New page: Lighting Build
+[2017.06.04-19.36.48:180][ 71]LoadErrors: New page: Loading map: Tutoriel.umap
+[2017.06.04-19.36.48:180][ 71]MapCheck: New page: Map Check
+[2017.06.04-19.36.48:180][ 71]LightingResults: New page: Lighting Build
+[2017.06.04-19.36.48:203][ 71]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.36.48:257][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.36.48:282][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.36.48:325][ 71]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.494ms to complete.
+[2017.06.04-19.36.48:326][ 71]LogFileHelpers: Loading map 'Tutoriel' took 0.148
+[2017.06.04-19.36.51:487][438]LogAIModule: Creating AISystem for world TestMapJames
+[2017.06.04-19.36.51:507][438]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/TestMapJames.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.36.51:507][438]LightingResults: New page: Lighting Build
+[2017.06.04-19.36.51:508][438]LoadErrors: New page: Loading map: TestMapJames.umap
+[2017.06.04-19.36.51:509][438]MapCheck: New page: Map Check
+[2017.06.04-19.36.51:509][438]LightingResults: New page: Lighting Build
+[2017.06.04-19.36.51:582][438]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.36.51:603][438]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.36.51:648][438]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.753ms to complete.
+[2017.06.04-19.36.51:648][438]LogFileHelpers: Loading map 'TestMapJames' took 0.142
+[2017.06.04-19.36.55:413][876]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.36.55:427][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.36.55:427][876]PIE: New page: PIE session: TestMapJames (Jun 4, 2017, 11:36:55 PM)
+[2017.06.04-19.36.55:427][876]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMapJames
+[2017.06.04-19.36.55:430][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002831s)
+[2017.06.04-19.36.55:430][876]LogAIModule: Creating AISystem for world TestMapJames
+[2017.06.04-19.36.55:431][876]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.06.04-19.36.55:431][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMapJames.TestMapJames to /Game/Maps/UEDPIE_0_TestMapJames.TestMapJames (0.003831s)
+[2017.06.04-19.36.55:451][876]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.36.55:458][876]LogInit: FAudioDevice initialized.
+[2017.06.04-19.36.55:488][876]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.36.55:490][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMapJames.TestMapJames up for play (max tick rate 0) at 2017.06.04-21.36.55
+[2017.06.04-19.36.55:490][876]LogWorld: Bringing up level for play took: 0.001067
+[2017.06.04-19.36.55:492][876]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMapJames -0.1
+[2017.06.04-19.37.07:011][214]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.37.07:025][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.37.07:025][214]PIE: New page: PIE session: TestMapJames (Jun 4, 2017, 11:37:07 PM)
+[2017.06.04-19.37.07:026][214]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMapJames
+[2017.06.04-19.37.07:028][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002032s)
+[2017.06.04-19.37.07:028][214]LogAIModule: Creating AISystem for world TestMapJames
+[2017.06.04-19.37.07:029][214]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2017.06.04-19.37.07:029][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMapJames.TestMapJames to /Game/Maps/UEDPIE_0_TestMapJames.TestMapJames (0.003236s)
+[2017.06.04-19.37.07:048][214]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.37.07:054][214]LogInit: FAudioDevice initialized.
+[2017.06.04-19.37.07:084][214]LogLoad: Game class is 'GameModeBase'
+[2017.06.04-19.37.07:086][214]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMapJames.TestMapJames up for play (max tick rate 0) at 2017.06.04-21.37.07
+[2017.06.04-19.37.07:086][214]LogWorld: Bringing up level for play took: 0.001025
+[2017.06.04-19.37.07:087][214]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_TestMapJames -0.505
+[2017.06.04-19.37.14:329][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/TestMapJames" FILE="D:/FallOfStarlight/Content/Maps/TestMapJames.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.04-19.37.14:381][ 62]LogSavePackage: Save=31.16ms
+[2017.06.04-19.37.14:381][ 62]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/TestMapJames5ED95857455D23F12A3D1A8E37783FD5.tmp' to 'D:/FallOfStarlight/Content/Maps/TestMapJames.umap'
+[2017.06.04-19.37.14:382][ 62]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Maps/TestMapJames.umap
+[2017.06.04-19.37.15:534][195]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.37.15:551][195]Cmd: MAP LOAD FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.04-19.37.15:551][195]LightingResults: New page: Lighting Build
+[2017.06.04-19.37.15:553][195]LoadErrors: New page: Loading map: Tutoriel.umap
+[2017.06.04-19.37.15:553][195]MapCheck: New page: Map Check
+[2017.06.04-19.37.15:553][195]LightingResults: New page: Lighting Build
+[2017.06.04-19.37.15:624][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.04-19.37.15:643][195]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.04-19.37.15:690][195]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.05ms to complete.
+[2017.06.04-19.37.15:690][195]LogFileHelpers: Loading map 'Tutoriel' took 0.139
+[2017.06.04-19.37.17:053][350]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.37.17:069][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.37.17:069][350]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:37:17 PM)
+[2017.06.04-19.37.17:069][350]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.37.17:070][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000831s)
+[2017.06.04-19.37.17:070][350]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.37.17:070][350]LogPlayLevel: PIE: World Init took: (0.000597s)
+[2017.06.04-19.37.17:071][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001641s)
+[2017.06.04-19.37.17:091][350]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.37.17:098][350]LogInit: FAudioDevice initialized.
+[2017.06.04-19.37.17:127][350]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.37.17:129][350]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.37.17
+[2017.06.04-19.37.17:129][350]LogWorld: Bringing up level for play took: 0.001156
+[2017.06.04-19.37.17:131][350]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.462
+[2017.06.04-19.37.21:732][890]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.37.21:747][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.37.21:747][890]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:37:21 PM)
+[2017.06.04-19.37.21:747][890]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.37.21:748][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000792s)
+[2017.06.04-19.37.21:749][890]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.37.21:749][890]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.06.04-19.37.21:749][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001574s)
+[2017.06.04-19.37.21:771][890]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.37.21:776][890]LogInit: FAudioDevice initialized.
+[2017.06.04-19.37.21:806][890]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.37.21:809][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.37.21
+[2017.06.04-19.37.21:809][890]LogWorld: Bringing up level for play took: 0.000993
+[2017.06.04-19.37.21:810][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.218
+[2017.06.04-19.37.43:859][421]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.37.43:873][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.37.43:873][421]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:37:43 PM)
+[2017.06.04-19.37.43:873][421]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.37.43:874][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000736s)
+[2017.06.04-19.37.43:874][421]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.37.43:874][421]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.06.04-19.37.43:874][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001457s)
+[2017.06.04-19.37.43:923][421]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.37.43:929][421]LogInit: FAudioDevice initialized.
+[2017.06.04-19.37.43:961][421]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.37.43:963][421]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.37.43
+[2017.06.04-19.37.43:963][421]LogWorld: Bringing up level for play took: 0.000784
+[2017.06.04-19.37.43:964][421]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.372
+[2017.06.04-19.37.49:470][ 25]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.37.51:291][233]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.37.51:307][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.37.51:307][233]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:37:51 PM)
+[2017.06.04-19.37.51:307][233]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.37.51:308][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000765s)
+[2017.06.04-19.37.51:308][233]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.37.51:308][233]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.06.04-19.37.51:308][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001538s)
+[2017.06.04-19.37.51:356][233]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.37.51:361][233]LogInit: FAudioDevice initialized.
+[2017.06.04-19.37.51:393][233]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.37.51:395][233]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.37.51
+[2017.06.04-19.37.51:395][233]LogWorld: Bringing up level for play took: 0.000871
+[2017.06.04-19.37.51:396][233]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.196
+[2017.06.04-19.37.55:323][663]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.04-19.38.07:806][136]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.38.07:821][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.38.07:821][136]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:38:07 PM)
+[2017.06.04-19.38.07:821][136]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.38.07:822][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000718s)
+[2017.06.04-19.38.07:822][136]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.38.07:822][136]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2017.06.04-19.38.07:823][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001479s)
+[2017.06.04-19.38.07:871][136]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.38.07:877][136]LogInit: FAudioDevice initialized.
+[2017.06.04-19.38.07:910][136]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.38.07:912][136]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.38.07
+[2017.06.04-19.38.07:912][136]LogWorld: Bringing up level for play took: 0.000891
+[2017.06.04-19.38.07:913][136]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.321
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C:Scene' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C:ExecuteUbergraph_ParentTile' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C:UserConstructionScript' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C:ReceiveTick' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C:PaperSprite' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.SKEL_ParentTile_C:Scene' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C:PaperSprite' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C:ReceiveTick' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C:UserConstructionScript' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:319][996]LogMetaData: Removing '/Game/FoSBlueprints/Tiles/ParentTile.ParentTile_C:ExecuteUbergraph_ParentTile' ref from Metadata '/Game/FoSBlueprints/ParentTile.PackageMetaData'
+[2017.06.04-19.38.32:335][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/Tiles/ParentTile" FILE="D:/FallOfStarlight/Content/FoSBlueprints/Tiles/ParentTile.uasset" SILENT=true
+[2017.06.04-19.38.32:349][996]LogSavePackage: Save=13.09ms
+[2017.06.04-19.38.32:349][996]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/ParentTileAB8197FA4138EEA1C212BB8895C0C40B.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/Tiles/ParentTile.uasset'
+[2017.06.04-19.38.32:350][996]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/Tiles/ParentTile.uasset
+[2017.06.04-19.38.32:479][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/FoSGameMode" FILE="D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset" SILENT=true
+[2017.06.04-19.38.32:497][996]LogSavePackage: Save=12.77ms
+[2017.06.04-19.38.32:497][996]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/FoSGameModeF8C5283745BEE13F7C9016B78BB3AED9.tmp' to 'D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset'
+[2017.06.04-19.38.32:498][996]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset
+[2017.06.04-19.40.41:904][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Starlight-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.40.41:920][627]LogSavePackage: Save=10.42ms
+[2017.06.04-19.40.41:920][627]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder_SpriteDEF312CC4CAEA1AFCDD384A7E1F02FA6.tmp' to 'D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset'
+[2017.06.04-19.40.41:921][627]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset
+[2017.06.04-19.40.56:545][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Starlight-Placeholder_Sprite" FILE="D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset" SILENT=true
+[2017.06.04-19.40.56:558][688]LogSavePackage: Save=11.15ms
+[2017.06.04-19.40.56:558][688]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight-Placeholder_SpriteB2F842804EB6468DD791208FCDBE7AD5.tmp' to 'D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset'
+[2017.06.04-19.40.56:559][688]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Sprites/Starlight-Placeholder_Sprite.uasset
+[2017.06.04-19.40.59:238][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/Characters/Starlight" FILE="D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset" SILENT=true
+[2017.06.04-19.40.59:258][907]LogSavePackage: Save=18.10ms
+[2017.06.04-19.40.59:258][907]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight936D31C840E08965F37F9D85B27ECF96.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset'
+[2017.06.04-19.40.59:258][907]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset
+[2017.06.04-19.41.00:597][ 12]BlueprintLog: New page: Compile Starlight
+[2017.06.04-19.41.44:245][412]BlueprintLog: New page: Compile Starlight
+[2017.06.04-19.44.03:237][910]BlueprintLog: New page: Compile Starlight
+[2017.06.04-19.44.04:861][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/Characters/Starlight" FILE="D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset" SILENT=true
+[2017.06.04-19.44.04:887][ 13]LogSavePackage: Save=19.55ms
+[2017.06.04-19.44.04:887][ 13]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Starlight79C748174E4A8E4B7EF21F812ADBECBE.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset'
+[2017.06.04-19.44.04:888][ 13]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/Characters/Starlight.uasset
+[2017.06.04-19.44.42:118][284]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.04-19.45.43:370][671]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.46.37:816][665]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.04-19.47.11:350][841]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.48.05:613][820]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.48.09:265][160]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.48.09:286][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.48.09:286][160]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:48:09 PM)
+[2017.06.04-19.48.09:286][160]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.48.09:287][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000712s)
+[2017.06.04-19.48.09:287][160]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.48.09:288][160]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2017.06.04-19.48.09:288][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001613s)
+[2017.06.04-19.48.09:335][160]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.48.09:342][160]LogInit: FAudioDevice initialized.
+[2017.06.04-19.48.09:372][160]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.48.09:374][160]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.48.09
+[2017.06.04-19.48.09:374][160]LogWorld: Bringing up level for play took: 0.001000
+[2017.06.04-19.48.09:381][160]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.211
+[2017.06.04-19.48.12:009][448]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.48.12:025][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.48.12:026][448]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:48:12 PM)
+[2017.06.04-19.48.12:026][448]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.48.12:026][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000718s)
+[2017.06.04-19.48.12:027][448]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.48.12:027][448]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2017.06.04-19.48.12:027][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001433s)
+[2017.06.04-19.48.12:075][448]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.48.12:080][448]LogInit: FAudioDevice initialized.
+[2017.06.04-19.48.12:115][448]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.48.12:116][448]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.48.12
+[2017.06.04-19.48.12:117][448]LogWorld: Bringing up level for play took: 0.000920
+[2017.06.04-19.48.12:119][448]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.527
+[2017.06.04-19.48.13:674][608]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.48.13:691][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.48.13:691][608]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:48:13 PM)
+[2017.06.04-19.48.13:691][608]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.48.13:692][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000928s)
+[2017.06.04-19.48.13:692][608]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.48.13:692][608]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2017.06.04-19.48.13:692][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001868s)
+[2017.06.04-19.48.13:743][608]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.48.13:748][608]LogInit: FAudioDevice initialized.
+[2017.06.04-19.48.13:782][608]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.48.13:784][608]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.48.13
+[2017.06.04-19.48.13:784][608]LogWorld: Bringing up level for play took: 0.000994
+[2017.06.04-19.48.13:786][608]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.194
+[2017.06.04-19.48.42:151][464]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.48.44:491][682]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.48.44:507][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.48.44:507][682]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:48:44 PM)
+[2017.06.04-19.48.44:507][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.48.44:508][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000764s)
+[2017.06.04-19.48.44:509][682]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.48.44:509][682]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2017.06.04-19.48.44:509][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001884s)
+[2017.06.04-19.48.44:555][682]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.48.44:561][682]LogInit: FAudioDevice initialized.
+[2017.06.04-19.48.44:596][682]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.48.44:598][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.48.44
+[2017.06.04-19.48.44:598][682]LogWorld: Bringing up level for play took: 0.000983
+[2017.06.04-19.48.44:600][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 1.008
+[2017.06.04-19.48.47:294][979]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.48.47:310][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.48.47:310][979]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:48:47 PM)
+[2017.06.04-19.48.47:310][979]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.48.47:311][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000696s)
+[2017.06.04-19.48.47:311][979]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.48.47:311][979]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.06.04-19.48.47:311][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001474s)
+[2017.06.04-19.48.47:359][979]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.48.47:365][979]LogInit: FAudioDevice initialized.
+[2017.06.04-19.48.47:399][979]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.48.47:401][979]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.48.47
+[2017.06.04-19.48.47:402][979]LogWorld: Bringing up level for play took: 0.001353
+[2017.06.04-19.48.47:404][979]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel -0.189
+[2017.06.04-19.49.23:292][275]BlueprintLog: New page: Compile FoSGameMode
+[2017.06.04-19.49.30:352][990]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.04-19.49.30:368][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.04-19.49.30:368][990]PIE: New page: PIE session: Tutoriel (Jun 4, 2017, 11:49:30 PM)
+[2017.06.04-19.49.30:368][990]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutoriel
+[2017.06.04-19.49.30:369][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000789s)
+[2017.06.04-19.49.30:370][990]LogAIModule: Creating AISystem for world Tutoriel
+[2017.06.04-19.49.30:370][990]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.06.04-19.49.30:370][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutoriel.Tutoriel to /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel (0.001783s)
+[2017.06.04-19.49.30:390][990]LogInit: XAudio2 using 'VX228-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.04-19.49.30:396][990]LogInit: FAudioDevice initialized.
+[2017.06.04-19.49.30:426][990]LogLoad: Game class is 'FoSGameMode_C'
+[2017.06.04-19.49.30:428][990]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutoriel.Tutoriel up for play (max tick rate 0) at 2017.06.04-21.49.30
+[2017.06.04-19.49.30:428][990]LogWorld: Bringing up level for play took: 0.000915
+[2017.06.04-19.49.30:430][990]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutoriel 0.838
+[2017.06.04-19.49.37:684][731]LogEditorViewport: Clicking on Actor (LMB): Starlight_C (Starlight)
+[2017.06.04-19.51.28:017][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutoriel" FILE="D:/FallOfStarlight/Content/Maps/Tutoriel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.06.04-19.51.28:053][528]LogSavePackage: Save=13.67ms
+[2017.06.04-19.51.28:053][528]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/Tutoriel5394B59545C7C93608AB75A63A2B42AC.tmp' to 'D:/FallOfStarlight/Content/Maps/Tutoriel.umap'
+[2017.06.04-19.51.28:054][528]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/Maps/Tutoriel.umap
+[2017.06.04-19.51.34:747][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoSBlueprints/Characters/StarlightController" FILE="D:/FallOfStarlight/Content/FoSBlueprints/Characters/StarlightController.uasset" SILENT=true
+[2017.06.04-19.51.34:758][155]LogSavePackage: Save=10.44ms
+[2017.06.04-19.51.34:758][155]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/StarlightController6D9D216440C0F29A6A6CFDB2CEFA3DCA.tmp' to 'D:/FallOfStarlight/Content/FoSBlueprints/Characters/StarlightController.uasset'
+[2017.06.04-19.51.34:759][155]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/FoSBlueprints/Characters/StarlightController.uasset
+[2017.06.04-19.51.34:761][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GameMode/FoSGameMode" FILE="D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset" SILENT=true
+[2017.06.04-19.51.34:781][155]LogSavePackage: Save=14.13ms
+[2017.06.04-19.51.34:781][155]LogSavePackage: Moving 'D:/FallOfStarlight/Saved/FoSGameMode7A69AA484F414D24F73126980C74DB24.tmp' to 'D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset'
+[2017.06.04-19.51.34:782][155]LogSavePackage:Display: Finished SavePackage D:/FallOfStarlight/Content/GameMode/FoSGameMode.uasset
+[2017.06.04-19.51.34:904][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.04-19.51.34:957][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.04-19.51.35:056][155]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.04-19.51.35:268][156]Cmd: QUIT_EDITOR
+[2017.06.04-19.51.35:771][156]LogExit: Preparing to exit.
+[2017.06.04-19.51.36:732][156]LogExit: Editor shut down
+[2017.06.04-19.51.36:733][156]LogExit: Transaction tracking system shut down
+[2017.06.04-19.51.36:904][156]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.04-19.51.36:904][156]LogExit: Object subsystem successfully closed.
+[2017.06.04-19.51.36:944][156]LogD3D11RHI: Shutdown
+[2017.06.04-19.51.36:944][156]LogD3D11RHI: CleanupD3DDevice
+[2017.06.04-19.51.37:038][156]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.04-19.51.37:070][156]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (506)
+[2017.06.04-19.51.37:070][156]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.06.04-19.51.37:070][156]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.06.04-19.51.37:071][156]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.06.04-19.51.37:071][156]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.06.04-19.51.37:071][156]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.06.04-19.51.37:071][156]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.06.04-19.51.37:071][156]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.06.04-19.51.37:072][156]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.06.04-19.51.37:078][156]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.06.04-19.51.37:078][156]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.06.04-19.51.37:078][156]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.06.04-19.51.37:079][156]LogDirectoryWatcher: A directory notification for 'D:/FallOfStarlight/Content/Collections/' was aborted.
+[2017.06.04-19.51.37:079][156]LogDirectoryWatcher: A directory notification for 'D:/FallOfStarlight/Content/Developers/JamesKeo/Collections/' was aborted.
+[2017.06.04-19.51.37:079][156]LogDirectoryWatcher: A directory notification for 'D:/FallOfStarlight/Saved/Collections/' was aborted.
+[2017.06.04-19.51.37:079][156]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.06.04-19.51.37:079][156]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.06.04-19.51.37:079][156]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.06.04-19.51.37:079][156]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.06.04-19.51.37:079][156]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.06.04-19.51.37:080][156]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.06.04-19.51.37:082][156]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.06.04-19.51.37:083][156]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.06.04-19.51.37:083][156]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.06.04-19.51.37:083][156]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.06.04-19.51.37:083][156]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.06.04-19.51.37:083][156]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.06.04-19.51.37:084][156]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.06.04-19.51.37:084][156]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.06.04-19.51.37:085][156]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.06.04-19.51.37:085][156]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.06.04-19.51.37:085][156]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.06.04-19.51.37:085][156]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.06.04-19.51.37:085][156]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.06.04-19.51.37:960][156]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.06.04-19.51.37:960][156]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.06.04-19.51.37:960][156]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.06.04-19.51.37:962][156]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.06.04-19.51.37:964][156]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.06.04-19.51.37:964][156]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.06.04-19.51.37:965][156]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.06.04-19.51.37:966][156]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.06.04-19.51.37:966][156]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.06.04-19.51.37:967][156]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.06.04-19.51.37:967][156]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.06.04-19.51.37:967][156]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.06.04-19.51.37:968][156]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.06.04-19.51.37:968][156]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.06.04-19.51.37:968][156]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.06.04-19.51.37:969][156]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.06.04-19.51.37:969][156]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.06.04-19.51.37:969][156]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.06.04-19.51.37:970][156]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.06.04-19.51.37:971][156]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.06.04-19.51.37:971][156]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.06.04-19.51.37:971][156]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.06.04-19.51.37:972][156]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.06.04-19.51.37:972][156]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.06.04-19.51.37:973][156]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.06.04-19.51.38:015][156]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.06.04-19.51.38:017][156]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.06.04-19.51.38:018][156]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.06.04-19.51.38:020][156]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.06.04-19.51.38:020][156]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.06.04-19.51.38:020][156]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.06.04-19.51.38:021][156]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.06.04-19.51.38:022][156]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.06.04-19.51.38:022][156]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.06.04-19.51.38:042][156]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.06.04-19.51.38:042][156]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.06.04-19.51.38:044][156]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.06.04-19.51.38:045][156]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.06.04-19.51.38:045][156]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.06.04-19.51.38:045][156]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.06.04-19.51.38:046][156]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.06.04-19.51.38:285][156]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.06.04-19.51.38:288][156]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.06.04-19.51.38:289][156]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.06.04-19.51.38:289][156]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.06.04-19.51.38:290][156]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.06.04-19.51.38:290][156]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.06.04-19.51.38:291][156]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.06.04-19.51.38:292][156]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.06.04-19.51.38:293][156]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.06.04-19.51.38:293][156]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.06.04-19.51.38:293][156]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.06.04-19.51.38:293][156]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.06.04-19.51.38:293][156]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.06.04-19.51.38:294][156]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.06.04-19.51.38:295][156]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.06.04-19.51.38:295][156]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.06.04-19.51.38:296][156]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.06.04-19.51.38:298][156]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.06.04-19.51.38:299][156]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.06.04-19.51.38:299][156]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.06.04-19.51.38:300][156]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.06.04-19.51.38:303][156]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.06.04-19.51.38:303][156]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.06.04-19.51.38:303][156]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.06.04-19.51.38:303][156]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.06.04-19.51.38:404][156]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.06.04-19.51.38:506][156]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.06.04-19.51.38:508][156]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.06.04-19.51.38:508][156]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.06.04-19.51.38:508][156]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.06.04-19.51.38:508][156]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.06.04-19.51.38:509][156]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.06.04-19.51.38:510][156]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.06.04-19.51.38:511][156]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.06.04-19.51.38:513][156]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.06.04-19.51.38:513][156]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.06.04-19.51.38:515][156]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.06.04-19.51.38:516][156]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.06.04-19.51.38:518][156]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.06.04-19.51.38:520][156]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.06.04-19.51.38:521][156]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.06.04-19.51.38:521][156]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.06.04-19.51.38:521][156]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.06.04-19.51.38:523][156]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.06.04-19.51.38:524][156]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.06.04-19.51.38:534][156]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.06.04-19.51.38:688][156]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.04-19.51.38:688][156]LogDirectoryWatcher: A directory notification for 'D:/FallOfStarlight/Content/' was aborted.
+[2017.06.04-19.51.38:688][156]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.04-19.51.38:690][156]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.06.04-19.51.38:694][156]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.06.04-19.51.38:694][156]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.06.04-19.51.38:694][156]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.06.04-19.51.38:695][156]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.06.04-19.51.38:696][156]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.06.04-19.51.38:696][156]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.06.04-19.51.38:696][156]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.06.04-19.51.38:696][156]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.06.04-19.51.38:753][156]LogDerivedDataCache: Shutdown
+[2017.06.04-19.51.38:753][156]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.06.04-19.51.38:754][156]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.06.04-19.51.38:754][156]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.06.04-19.51.38:755][156]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.06.04-19.51.38:755][156]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.06.04-19.51.38:755][156]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.06.04-19.51.38:755][156]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.06.04-19.51.38:755][156]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.06.04-19.51.38:756][156]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.06.04-19.51.38:756][156]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.06.04-19.51.38:756][156]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.06.04-19.51.38:756][156]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.06.04-19.51.38:756][156]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.06.04-19.51.38:757][156]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.06.04-19.51.38:758][156]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.06.04-19.51.38:758][156]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.06.04-19.51.38:758][156]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.06.04-19.51.38:758][156]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.06.04-19.51.38:758][156]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.04-19.51.38:759][156]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.06.04-19.51.38:760][156]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.06.04-19.51.38:760][156]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.04-19.51.38:760][156]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF6AB31A1-44C7-B967-521C-8494FF157E07%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=8f90e42f42c288ea9637f8b85d833ceb%7Cbda0ccab5e334634aff4846c4a7d9715%7C67c24ea9-0905-4a8d-852c-8189924026e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.04-19.51.38:792][156]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.06.04-19.51.38:795][156]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.04-19.51.38:796][156]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.04-19.51.38:796][156]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.04-19.51.38:796][156]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.04-19.51.38:796][156]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.04-19.51.38:808][156]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.04-19.51.38:809][156]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.04-19.51.38:809][156]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.04-19.51.38:810][156]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.04-19.51.38:814][156]LogExit: Exiting.
+[2017.06.04-19.51.38:829][156]Log file closed, 06/04/17 21:51:38
